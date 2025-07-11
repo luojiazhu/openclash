@@ -4,7 +4,7 @@
 # 机场订阅
 proxy-providers:
   Airport1:
-    url: "https://rss.rss-node.com/link/bFGXtABwwHqwqgRY?mu=1"
+    url: "订阅地址"
     type: http
     interval: 86400
     health-check:
@@ -13,7 +13,7 @@ proxy-providers:
       interval: 300
     proxy: 直连
   Airport2:
-    url: "https://rss.rss-node.com/link/15swE7UhLPfWBHke?mu=1"
+    url: "订阅地址"
     type: http
     interval: 86400
     health-check:
@@ -22,7 +22,7 @@ proxy-providers:
       interval: 300
     proxy: 直连
   Airport3:
-    url: "http://8.138.135.231:8090/api/v1/client/subscribe?token=6d7f93b8b99272711c9df2d8ac164306"
+    url: "订阅地址"
     type: http
     interval: 86400
     health-check:
